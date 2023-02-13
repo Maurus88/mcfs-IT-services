@@ -1,0 +1,62 @@
+body {
+    background: rgb(36, 36, 36);
+    background: linear-gradient(113deg, rgba(36, 36, 36, 1) 0%, rgba(65, 65, 65, 1) 100%);
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.mcfs-logo{
+    display: flex;
+    width: 40vw;
+    margin-top: 0%;
+    margin-right: 5%;
+}
+
+.mcfs-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+footer{
+    display: flexbox;
+    flex-direction: column;
+    padding-top: 75%;
+}
+
+footer .footer-text{
+    display: flex,
+    flex-direction: row;
+    background-color: #ee05e2;
+    color: rgba(221, 211, 211, 0.897);
+    text-align: center;
+    padding: 10px;
+}
+
+footer .footer-logo{
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    font-family: Oxygen;
+    font-style: italic;
+    font-size: 15px;
+}
+
+footer img{
+    height: 75px;
+    width: auto;
+}
+  
