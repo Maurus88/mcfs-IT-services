@@ -10,10 +10,9 @@
 <link rel="stylesheet" href="css/stylesheet1.css">
 <link rel="stylesheet" href="css/stylesheet2.css">
 <link rel="stylesheet" href="css/gallery.css">
-<scrip href="scripts/smenu.js"></scrip>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="jquery.zoom.min.js"></script>
-<script href="scripts/sslider.js"></script>
+<script src="scripts/smenu.js"></script>
+<script src="scripts/sslider.js"></script>
+<script src="scripts/dialog.js"></script>
 </head>
 
 <header>
@@ -42,13 +41,15 @@
 </header>
 
 <body>
-
     <div class="gallery">
-        <img src="img/gallery/cloud.jpg" alt="Cloud computing" />
-        <img src="img/gallery/service.jpg" alt="Services" />
-        <img src="img/gallery/sysadmin.jpg" alt="System administrator" />
-      </div>
-      
+        <img src="img/gallery/pc-repair.jpg" alt="Soporte técnico" data-id="soporte-tecnico" onclick="showDialog('Soporte técnico', 'Diagnostico, reparación y mantenimiento de equipos y/o sistemas. Armado de equipos a medida del cliente. Instalación de sistemas desde cero o recuperación de los mismos. Soporte remoto para usuarios finales y empresas.', 'img/gallery/pc-repair.jpg')"/>
+        <img src="img/gallery/service.jpg" alt="Servicios de consultoría" onclick="showDialog('servicios de consultoria', 'Servicios de consultoría - Descripción', 'img/gallery/service.jpg')"/>
+        <img src="img/gallery/sysadmin.jpg" alt="Administración de sistemas y redes" onclick="showDialog('administracion de sistemas', 'Administración de sistemas y redes - Descripción', 'img/gallery/sysadmin.jpg')"/>
+        <img src="img/gallery/develop.jpg" alt="Desarrollo de páginas y aplicaciones" onclick="showDialog('desarrollo', 'Desarrollo de páginas y aplicaciones - Descripción', 'img/gallery/develop.jpg')"/>
+        <img src="img/gallery/cloud.jpg" alt="Servicios en la nube" onclick="showDialog('servicios en la nube', 'Servicios en la nube - Descripción', 'img/gallery/cloud.jpg')"/>
+        <img src="img/gallery/iot.png" alt="Servicios de automatización" onclick="showDialog('servicios de automatizacion', 'Servicios de automatización - Descripción', 'img/gallery/iot.png')"/>
+    </div>
+
 <footer>
     <div class="footer-text">
         <p>Diseñado por MCFS Soluciones IT - Todos los derechos reservados - Año: 2023</p>
