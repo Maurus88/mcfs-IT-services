@@ -30,18 +30,20 @@ body {
 }
 
 footer{
-    display: flexbox;
+    display: flex;
     flex-direction: column;
-    padding-top: 75%;
+    margin-top: 75%;
 }
 
 footer .footer-text{
-    display: flex,
+    display: flexbox,
     flex-direction: row;
     background-color: #ee05e2;
     color: rgba(221, 211, 211, 0.897);
     text-align: center;
     padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 footer .footer-logo{

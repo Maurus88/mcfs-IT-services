@@ -1,0 +1,18 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+    transition: all 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.2);
+    cursor: zoom-in;
+  }
