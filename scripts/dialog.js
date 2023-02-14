@@ -4,7 +4,7 @@ function showDialog(title, message, imageSrc) {
       <img src="${imageSrc}" alt="${title}">
       <h1>${title}</h1>
       <p>${message}</p>
-      <button>Close</button>
+      <button>Cerrar</button>
     `;
     document.body.appendChild(dialog);
     dialog.showModal();

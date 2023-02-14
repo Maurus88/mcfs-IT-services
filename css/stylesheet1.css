@@ -110,5 +110,37 @@ dialog {
     font-size: 1.2em;
     cursor: pointer;
     margin-top: 20px;
-  }
+}
+
+/* === SEPARATOR === */
+
+.separator{
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    min-height: 100px;
+    max-height: 400px;
+}
+
   
+/* === ABOUT === */
+
+.about {
+    display: flex;
+    background: #000000;
+    background: linear-gradient(to left, #fd08e5, #60007e);
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.about p{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-family: Oxygen;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #e0d8d8;
+}
