@@ -1,6 +1,6 @@
 /* Estilos para el contenedor con borde de neón */
 .neon-border {
-    margin: 100px 150px 150px 150px;
+    margin: 100px 150px 0 150px;
     position: relative;
     padding: 20px;
     border: 2px solid transparent;

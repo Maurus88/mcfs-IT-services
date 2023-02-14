@@ -136,7 +136,7 @@ dialog {
     height: fit-content;
     background: #000000;
     background: linear-gradient(to left, #fd08e5, #60007e);
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -151,3 +151,40 @@ dialog {
     line-height: 1.5;
     color: #e0d8d8;
 }
+
+/* === CONTACT === */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .contact-form label {
+    font-family: Oxygen;
+    color: ghostwhite;
+    font-weight: bold;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    background-color: #fd08e5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #60007e;
+  }
+  
