@@ -114,19 +114,26 @@ dialog {
 
 /* === SEPARATOR === */
 
-.separator{
+.separator {
+    position: relative;
     display: flex;
-    margin-top: 200px;
     justify-content: center;
+    margin-top: 200px;
     min-height: 100px;
     max-height: 400px;
-}
+  }
 
+.separator img {
+    display: flex;
+    max-width: 50%;
+    max-height: 75%;
+}
   
 /* === ABOUT === */
 
 .about {
     display: flex;
+    height: fit-content;
     background: #000000;
     background: linear-gradient(to left, #fd08e5, #60007e);
     margin-top: 200px;

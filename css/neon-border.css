@@ -1,0 +1,61 @@
+/* Estilos para el contenedor con borde de neón */
+.neon-border {
+    margin: 100px 150px 150px 150px;
+    position: relative;
+    padding: 20px;
+    border: 2px solid transparent;
+  }
+  
+  /* Estilos para el borde de neón */
+  .neon-border::before, .neon-border::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 432px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border: 2px solid transparent;
+    border-radius: 10px;
+  }
+  
+  /* Estilos para el borde de neón animado */
+  .neon-border::before {
+    animation: neon-border 2s ease-in-out infinite;
+  }
+  
+  .neon-border::after {
+    animation: neon-border 2s ease-in-out infinite alternate;
+  }
+  
+  /* Animación para el borde de neón */
+  @keyframes neon-border {
+    0% {
+      border-color: rgba(255, 0, 212, 0.884);
+      box-shadow: 0 0 5px rgba(131, 3, 110, 0.925);
+    }
+    50% {
+      border-color: rgba(125, 4, 136, 0.9);
+      box-shadow: 0 0 20px rgba(255, 0, 242, 0.966);
+    }
+    100% {
+      border-color: rgba(255, 0, 179, 0.925);
+      box-shadow: 0 0 5px rgba(174, 0, 255, 0.644);
+    }
+  }
+  
+  /* Estilos para la imagen */
+  .neon-border img {
+    margin-left: 3px;
+    display: block;
+    width: 100%;
+    height: 400px;
+  }
+  
+  /* Estilos para el texto */
+  .neon-border h2, .neon-border p {
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000, 0 0 100px #ff0000;
+  }
+  
